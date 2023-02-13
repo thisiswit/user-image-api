@@ -1,5 +1,7 @@
 FROM python:3.9-slim
 
+LABEL "devops.maintainers"="João Guedes <joao.guedes@grupoge21.com>, <joao.guedes@sga.pucminas.br>"
+
 COPY . /app
 
 COPY ./requirements.txt /app
